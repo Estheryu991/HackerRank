@@ -1,0 +1,33 @@
+echo "# HackerRank" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Estheryu991/HackerRank.git
+git push -u origin main
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+
+url: https://www.hackerrank.com/test/deemkpdt0nl/questions/521e954e6ff11
+/*
+ * Complete the 'fizzBuzz' function below.
+ *
+ * The function accepts INTEGER n as parameter.
+ */
+
+using namespace std;
+void fizzBuzz(int n) {
+    for(int i = 1; i <= n; i++)
+        if(i%3==0 && i%5==0) cout <<"FizzBuzz" <<endl;
+        else if(i%3==0) cout << "Fizz" <<endl;
+        else if(i%5==0) cout << "Buzz" << endl;
+        else cout << i << endl;
+    
+}
+int main()
+
